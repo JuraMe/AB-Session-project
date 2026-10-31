@@ -8,12 +8,15 @@
 Конверсия выросла на +0.73 п.п. (+6.2%), эффект устойчив ко всем проверкам. Но весь эффект дают крупные и средние
 города, а в малых роста нет, при этом опоздания там выросли на 3.2 п.п.
 
+Подробное описание проекта — в [DETAILS.md](DETAILS.md).
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JuraMe/AB-Session-project/blob/main/session_project.ipynb)
 
 ## Структура репозитория
 
 | Файл | Что внутри |
 |---|---|
+| `DETAILS.md` | Подробное описание: сценарий, соответствие критериям оценки, что заложено в данные |
 | `session_project.ipynb` | Основное решение: исполненный ноутбук с кодом, графиками и выводами |
 | `session_project.py` | Тот же анализ в виде Python-скрипта (ячейки `# %%`) |
 | `data_generation/generate_data.py` | Генератор данных (seed = 4051), в docstring описано, что заложено в данные |
